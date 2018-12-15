@@ -1,0 +1,168 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  background-color: black;
+}
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  vertical-align: bottom;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 16px;
+  color: #1987ee;
+}
+button {
+  background-color: #1987ee;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+.inputLabel {
+  font-size: 14px;
+  font-weight: bold;
+}
+input.inputField {
+  padding: 5px;
+  border: 1px solid #1987ee;
+}
+div.box {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin: 0 10px 0 10px;
+}
+#primary1 {
+  background-color: black;
+  border: 1px solid white;
+}
+#primary2 {
+  background-color: white;
+}
+#primary3 {
+  background-color: #1987ee;
+}
+.warning {
+  background-color: #ffde00;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+.Call_to_Action {
+  background-color: #d41111;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.success {
+  background-color: #1987ee;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+svg.svg-inline--fa {
+  color: white;
+}
+.spacer {
+  margin-top: 25px;
+}
+#footer {
+  border-top: 1px solid #dddddd;
+  margin-top: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+a:link {
+  color: #dfdfdf; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: #dfdfdf;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1987ee;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #1987ee;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#menuBar {
+  vertical-align: bottom;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.social {
+  justify-content: flex-end;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  color: slategray;
+  font-size: 10px;
+  flex-wrap: wrap;
+}
+.phone{
+  color: #1987ee;
+
+}
+.email{
+  color: #1987ee;
+
+}
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+  .carousel {
+    background: #FAFAFA;
+  }
+  
+  .carousel-cell {
+    width: 66%;
+    margin-right: 10px;
+    background: white;
+    overflow: hidden;
+  }
